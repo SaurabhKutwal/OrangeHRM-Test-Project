@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="ORHRM Test Suite">
+    
+    <listeners>
+        <listener class-name="ORHRM.Testcomponents.ListenersTest"></listener>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="Login Test">
+        <classes>
+            <class name="ORHRM.Tests.T_LoginTest"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Personal Details UI Test">
+        <classes>
+            <class name="ORHRM.Tests.T_PerDtlFeildsCheck"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Contact Details UI Test">
+        <classes>
+            <class name="ORHRM.Tests.T_ContactDtlsFields"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Add Emergency Contact">
+        <classes>
+            <class name="ORHRM.Tests.T_EmergencyContactTest"></class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+

@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ORHRM_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">ORHRM Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>wholeSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ORHRM_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ORHRM_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 3 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ORHRM_Test_Suite" class="hide-methods failed suite-ORHRM_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-ORHRM_Test_Suite -->
+                      <a href="#" panel-name="suite-ORHRM_Test_Suite" class="show-methods failed suite-ORHRM_Test_Suite"> (show)</a> <!-- show-methods failed suite-ORHRM_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ORHRM_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Employee Id)">T_perDtlFieldsCheck(Employee Id)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(License Number)">T_perDtlFieldsCheck(License Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Date of Birth)">T_perDtlFieldsCheck(Date of Birth)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ORHRM_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ORHRM_Test_Suite" class="hide-methods passed suite-ORHRM_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-ORHRM_Test_Suite -->
+                      <a href="#" panel-name="suite-ORHRM_Test_Suite" class="show-methods passed suite-ORHRM_Test_Suite"> (show)</a> <!-- show-methods passed suite-ORHRM_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ORHRM_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(State)">T_ContactDtlsFields(State)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Country)">T_ContactDtlsFields(Country)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Street 2)">T_ContactDtlsFields(Street 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Zip)">T_ContactDtlsFields(Zip)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Home)">T_ContactDtlsFields(Home)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(City)">T_ContactDtlsFields(City)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Mobile)">T_ContactDtlsFields(Mobile)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Work Email)">T_ContactDtlsFields(Work Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Street 1)">T_ContactDtlsFields(Street 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_ContactDtlsFields" class="method navigator-link" hash-for-method="T_ContactDtlsFields(Other Email)">T_ContactDtlsFields(Other Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_EmergencyContactTest" class="method navigator-link" hash-for-method="T_EmergencyContactTest({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relati...)">T_EmergencyContactTest({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relati...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_LoginTest" class="method navigator-link" hash-for-method="T_LoginTest(abcd, ACE19@ORhrm, Invalid credentials)">T_LoginTest(abcd, ACE19@ORhrm, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_LoginTest" class="method navigator-link" hash-for-method="T_LoginTest(ace19, abcd, Invalid credentials)">T_LoginTest(ace19, abcd, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_LoginTest" class="method navigator-link" hash-for-method="T_LoginTest(abcd, abcd, Invalid credentials)">T_LoginTest(abcd, abcd, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_LoginTest" class="method navigator-link" hash-for-method="T_LoginTest(ace19, ACE19@ORhrm, No Msg)">T_LoginTest(ace19, ACE19@ORhrm, No Msg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_LoginTest" class="method navigator-link" hash-for-method="T_Sample">T_Sample</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Blood Type)">T_perDtlFieldsCheck(Blood Type)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(middlename)">T_perDtlFieldsCheck(middlename)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Nationality)">T_perDtlFieldsCheck(Nationality)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Other Id)">T_perDtlFieldsCheck(Other Id)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(Marital Status)">T_perDtlFieldsCheck(Marital Status)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(firstname)">T_perDtlFieldsCheck(firstname)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(License Expiry Date)">T_perDtlFieldsCheck(License Expiry Date)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ORHRM_Test_Suite" title="ORHRM.Tests.T_PerDtlFeildsCheck" class="method navigator-link" hash-for-method="T_perDtlFieldsCheck(lastname)">T_perDtlFieldsCheck(lastname)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ORHRM_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ORHRM_Test_Suite" class="panel ORHRM_Test_Suite">
+          <div class="suite-ORHRM_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ORHRM.Tests.T_PerDtlFeildsCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Employee Id)">
+                  </a> <!-- T_perDtlFieldsCheck(Employee Id) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Employee Id)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at ORHRM.Tests.T_PerDtlFeildsCheck.T_perDtlFieldsCheck(T_PerDtlFeildsCheck.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(License Number)">
+                  </a> <!-- T_perDtlFieldsCheck(License Number) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(License Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at ORHRM.Tests.T_PerDtlFeildsCheck.T_perDtlFieldsCheck(T_PerDtlFeildsCheck.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Date of Birth)">
+                  </a> <!-- T_perDtlFieldsCheck(Date of Birth) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Date of Birth)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at ORHRM.Tests.T_PerDtlFeildsCheck.T_perDtlFieldsCheck(T_PerDtlFeildsCheck.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORHRM_Test_Suite-class-failed -->
+          <div class="suite-ORHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ORHRM.Tests.T_EmergencyContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_EmergencyContactTest({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relati...)">
+                  </a> <!-- T_EmergencyContactTest({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relati...) -->
+                  <span class="method-name">T_EmergencyContactTest</span>
+                  <span class="parameters">({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relative})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORHRM_Test_Suite-class-passed -->
+          <div class="suite-ORHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ORHRM.Tests.T_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_LoginTest(abcd, ACE19@ORhrm, Invalid credentials)">
+                  </a> <!-- T_LoginTest(abcd, ACE19@ORhrm, Invalid credentials) -->
+                  <span class="method-name">T_LoginTest</span>
+                  <span class="parameters">(abcd,ACE19@ORhrm,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_LoginTest(ace19, abcd, Invalid credentials)">
+                  </a> <!-- T_LoginTest(ace19, abcd, Invalid credentials) -->
+                  <span class="method-name">T_LoginTest</span>
+                  <span class="parameters">(ace19,abcd,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_LoginTest(abcd, abcd, Invalid credentials)">
+                  </a> <!-- T_LoginTest(abcd, abcd, Invalid credentials) -->
+                  <span class="method-name">T_LoginTest</span>
+                  <span class="parameters">(abcd,abcd,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_LoginTest(ace19, ACE19@ORhrm, No Msg)">
+                  </a> <!-- T_LoginTest(ace19, ACE19@ORhrm, No Msg) -->
+                  <span class="method-name">T_LoginTest</span>
+                  <span class="parameters">(ace19,ACE19@ORhrm,No Msg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_Sample">
+                  </a> <!-- T_Sample -->
+                  <span class="method-name">T_Sample</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORHRM_Test_Suite-class-passed -->
+          <div class="suite-ORHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ORHRM.Tests.T_ContactDtlsFields</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(State)">
+                  </a> <!-- T_ContactDtlsFields(State) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(State)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Country)">
+                  </a> <!-- T_ContactDtlsFields(Country) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Country)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Street 2)">
+                  </a> <!-- T_ContactDtlsFields(Street 2) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Street 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Zip)">
+                  </a> <!-- T_ContactDtlsFields(Zip) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Zip)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Home)">
+                  </a> <!-- T_ContactDtlsFields(Home) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Home)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(City)">
+                  </a> <!-- T_ContactDtlsFields(City) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(City)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Mobile)">
+                  </a> <!-- T_ContactDtlsFields(Mobile) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Mobile)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Work Email)">
+                  </a> <!-- T_ContactDtlsFields(Work Email) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Work Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Street 1)">
+                  </a> <!-- T_ContactDtlsFields(Street 1) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Street 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_ContactDtlsFields(Other Email)">
+                  </a> <!-- T_ContactDtlsFields(Other Email) -->
+                  <span class="method-name">T_ContactDtlsFields</span>
+                  <span class="parameters">(Other Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORHRM_Test_Suite-class-passed -->
+          <div class="suite-ORHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ORHRM.Tests.T_PerDtlFeildsCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Blood Type)">
+                  </a> <!-- T_perDtlFieldsCheck(Blood Type) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Blood Type)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(middlename)">
+                  </a> <!-- T_perDtlFieldsCheck(middlename) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(middlename)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Nationality)">
+                  </a> <!-- T_perDtlFieldsCheck(Nationality) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Nationality)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Other Id)">
+                  </a> <!-- T_perDtlFieldsCheck(Other Id) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Other Id)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(Marital Status)">
+                  </a> <!-- T_perDtlFieldsCheck(Marital Status) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(Marital Status)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(firstname)">
+                  </a> <!-- T_perDtlFieldsCheck(firstname) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(firstname)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(License Expiry Date)">
+                  </a> <!-- T_perDtlFieldsCheck(License Expiry Date) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(License Expiry Date)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T_perDtlFieldsCheck(lastname)">
+                  </a> <!-- T_perDtlFieldsCheck(lastname) -->
+                  <span class="method-name">T_perDtlFieldsCheck</span>
+                  <span class="parameters">(lastname)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ORHRM_Test_Suite-class-passed -->
+        </div> <!-- panel ORHRM_Test_Suite -->
+        <div panel-name="test-xml-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/saurabh/Desktop/JavaSelenium/ORHRMTest/runners/wholeSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ORHRM Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ORHRM.Testcomponents.ListenersTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ORHRM.Tests.T_LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Personal Details UI Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ORHRM.Tests.T_PerDtlFeildsCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Personal Details UI Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contact Details UI Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ORHRM.Tests.T_ContactDtlsFields&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contact Details UI Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Emergency Contact&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ORHRM.Tests.T_EmergencyContactTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Emergency Contact --&gt;
+&lt;/suite&gt; &lt;!-- ORHRM Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ORHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Personal Details UI Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contact Details UI Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add Emergency Contact (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ORHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ORHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ORHRM_Test_Suite');
+function tableData_ORHRM_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'T_LoginTest')
+data.setCell(0, 2, 'ORHRM.Tests.T_LoginTest')
+data.setCell(0, 3, 16319);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'T_EmergencyContactTest')
+data.setCell(1, 2, 'ORHRM.Tests.T_EmergencyContactTest')
+data.setCell(1, 3, 9551);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'T_LoginTest')
+data.setCell(2, 2, 'ORHRM.Tests.T_LoginTest')
+data.setCell(2, 3, 1773);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'T_LoginTest')
+data.setCell(3, 2, 'ORHRM.Tests.T_LoginTest')
+data.setCell(3, 3, 1765);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'T_LoginTest')
+data.setCell(4, 2, 'ORHRM.Tests.T_LoginTest')
+data.setCell(4, 3, 1478);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'T_perDtlFieldsCheck')
+data.setCell(5, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(5, 3, 532);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'T_ContactDtlsFields')
+data.setCell(6, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(6, 3, 403);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'T_perDtlFieldsCheck')
+data.setCell(7, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(7, 3, 398);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'T_perDtlFieldsCheck')
+data.setCell(8, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(8, 3, 20);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'T_ContactDtlsFields')
+data.setCell(9, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(9, 3, 16);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'T_perDtlFieldsCheck')
+data.setCell(10, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(10, 3, 15);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'T_perDtlFieldsCheck')
+data.setCell(11, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(11, 3, 14);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'T_perDtlFieldsCheck')
+data.setCell(12, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'T_perDtlFieldsCheck')
+data.setCell(13, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(13, 3, 13);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'T_ContactDtlsFields')
+data.setCell(14, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(14, 3, 13);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'T_perDtlFieldsCheck')
+data.setCell(15, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(15, 3, 12);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'T_ContactDtlsFields')
+data.setCell(16, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(16, 3, 12);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'T_perDtlFieldsCheck')
+data.setCell(17, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(17, 3, 11);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'T_perDtlFieldsCheck')
+data.setCell(18, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(18, 3, 10);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'T_ContactDtlsFields')
+data.setCell(19, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(19, 3, 10);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'T_ContactDtlsFields')
+data.setCell(20, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(20, 3, 10);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'T_ContactDtlsFields')
+data.setCell(21, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(21, 3, 10);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'T_ContactDtlsFields')
+data.setCell(22, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(22, 3, 10);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'T_ContactDtlsFields')
+data.setCell(23, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(23, 3, 9);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'T_ContactDtlsFields')
+data.setCell(24, 2, 'ORHRM.Tests.T_ContactDtlsFields')
+data.setCell(24, 3, 9);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'T_Sample')
+data.setCell(25, 2, 'ORHRM.Tests.T_LoginTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'T_perDtlFieldsCheck')
+data.setCell(26, 2, 'ORHRM.Tests.T_PerDtlFeildsCheck')
+data.setCell(26, 3, 0);
+window.suiteTableData['ORHRM_Test_Suite']= { tableData: data, tableDiv: 'times-div-ORHRM_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-ORHRM_Test_Suite">
+              </div> <!-- times-div-ORHRM_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ORHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ORHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ORHRM.Tests.T_EmergencyContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ORHRM.Tests.T_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">3106 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">T_LoginTest(abcd, abcd, Invalid credentials)</span>
+                <span class="method-start">6537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_LoginTest(ace19, abcd, Invalid credentials)</span>
+                <span class="method-start">8313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_LoginTest(abcd, ACE19@ORhrm, Invalid credentials)</span>
+                <span class="method-start">10079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_LoginTest(ace19, ACE19@ORhrm, No Msg)</span>
+                <span class="method-start">11557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_Sample</span>
+                <span class="method-start">27880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">27884 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ORHRM.Tests.T_PerDtlFeildsCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">29251 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(firstname)</span>
+                <span class="method-start">40053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(middlename)</span>
+                <span class="method-start">40452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(lastname)</span>
+                <span class="method-start">40465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">T_perDtlFieldsCheck(Employee Id)</span>
+                <span class="method-start">40476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(Other Id)</span>
+                <span class="method-start">40494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">T_perDtlFieldsCheck(License Number)</span>
+                <span class="method-start">40507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(License Expiry Date)</span>
+                <span class="method-start">40528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">T_perDtlFieldsCheck(Date of Birth)</span>
+                <span class="method-start">40539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(Nationality)</span>
+                <span class="method-start">40553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(Marital Status)</span>
+                <span class="method-start">40553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_perDtlFieldsCheck(Blood Type)</span>
+                <span class="method-start">40568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">41101 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ORHRM.Tests.T_ContactDtlsFields</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">42284 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Street 1)</span>
+                <span class="method-start">52309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Street 2)</span>
+                <span class="method-start">52712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(City)</span>
+                <span class="method-start">52725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(State)</span>
+                <span class="method-start">52735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Zip)</span>
+                <span class="method-start">52744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Country)</span>
+                <span class="method-start">52754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Home)</span>
+                <span class="method-start">52764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Mobile)</span>
+                <span class="method-start">52780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Work Email)</span>
+                <span class="method-start">52789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T_ContactDtlsFields(Other Email)</span>
+                <span class="method-start">52801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">52812 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ORHRM.Tests.T_EmergencyContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">54330 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">T_EmergencyContactTest({Name=Bob, Mobile=1234567890, Home Telephone=1234567, Work Telephone=0987654321, Relationship=Relati...)</span>
+                <span class="method-start">56788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">66341 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">67498 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ORHRM Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ORHRM.Testcomponents.ListenersTest"/>
+  </listeners>
+  <test thread-count="5" name="Personal Details UI Test(failed)">
+    <classes>
+      <class name="ORHRM.Tests.T_PerDtlFeildsCheck">
+        <methods>
+          <include name="close"/>
+          <include name="T_perDtlFieldsCheck" invocation-numbers="3 5 7"/>
+          <include name="init"/>
+          <include name="start"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- ORHRM.Tests.T_PerDtlFeildsCheck -->
+    </classes>
+  </test> <!-- Personal Details UI Test(failed) -->
+</suite> <!-- Failed suite [ORHRM Test Suite] -->
